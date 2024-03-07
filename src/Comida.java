@@ -91,9 +91,12 @@ public class Comida {
         adicionarIngredientes(qtdExtras);
     }
 
-    //TODO
+    /**
+     * Calcula o valor total dos ingredientes adicionais
+     * @return (double) valor total dos adicionais dessa comida
+     */
 	private double valorDosAdicionais() {
-		return 0;
+		return qtdAdicionais * valorPorAdicional;
 	}
     
     /**
